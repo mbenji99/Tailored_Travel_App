@@ -1,0 +1,10 @@
+@import '@fontsource/inter';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Global styles */
+body {
+  @apply font-sans bg-gray-50 text-gray-800 antialiased;
+}

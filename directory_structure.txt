@@ -1,0 +1,49 @@
+Folder PATH listing for volume Windows
+Volume serial number is 5050-B2EC
+C:.
+|   .gitignore
+|   directory_structure.txt
+|   eslint.config.js
+|   index.html
+|   package-lock.json
+|   package.json
+|   postcss.config.js
+|   tsconfig.app.json
+|   tsconfig.json
+|   tsconfig.node.json
+|   
++---.bolt
+|       config.json
+|       prompt
+|       
++---config
+|       tailwind.config.js
+|       vite.config.ts
+|       
++---MYSQL
+|       tailored_travel.sql
+|       
+\---src
+    |   App.tsx
+    |   index.css
+    |   main.tsx
+    |   vite-env.d.ts
+    |   
+    +---components
+    |       Navbar.tsx
+    |       
+    +---lib
+    |       utils.ts
+    |       
+    +---pages
+    |       Dashboard.tsx
+    |       Home.tsx
+    |       Login.tsx
+    |       NewTrip.tsx
+    |       Profile.tsx
+    |       Register.tsx
+    |       
+    \---store
+            authStore.ts
+            tripStore.ts
+            
