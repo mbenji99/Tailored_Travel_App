@@ -1,0 +1,6 @@
+tensorflow
+tfx
+scikit-learn
+surprise
+pandas
+openpyxl
