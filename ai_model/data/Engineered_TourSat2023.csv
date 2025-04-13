@@ -1,0 +1,38 @@
+Sector,Production,Category,Relative_Share,Log_Production
+food and beverage services,1470579.0,food_services,0.008520253530351646,14.201167438760578
+domestic passenger air transportation services,207937.0,air_transport,0.0012047472174842224,12.244995237326622
+international passenger air transportation services,60819.0,air_transport,0.0003523736565410337,11.015673961231355
+passenger rail transportation services,2380.0,other_transport,1.378926491010474e-05,7.7752758464868625
+passenger water transportation services,22261.0,other_transport,0.0001289759773797654,10.010636468053171
+interurban bus transportation,1535.0,other_transport,8.893496486138981e-06,7.336936913707618
+interurban charter bus transportation,3259.0,other_transport,1.888202283278628e-05,8.089482474360754
+urban transit systems and other transportation services,65884.0,other_transport,0.00038171929804089945,11.095666076979352
+taxi service,60406.0,other,0.0003499808135125155,11.008860271247446
+scenic and sightseeing transportation services,5353.0,other_transport,3.101425843016415e-05,8.585599224080298
+automotive rental,63532.0,other,0.0003680922597767959,11.059314734930648
+other vehicle rental,940.0,other,5.446180258612797e-06,6.846943139585379
+automotive repair services,268507.0,air_transport,0.0015556782156376024,12.500635987645476
+parking lots and garages,25125.0,other,0.00014556944574217715,10.131658445564364
+highway tolls,20685.0,other,0.00011984493473341032,9.93721242193775
+travel arrangement and reservation services,89571.0,other,0.0005189572467491562,11.402798050124723
+motion pictures and performing arts,118054.0,other,0.0006839823023939097,11.678905896551063
+spectator sports,40022.0,other,0.00023187981522361845,10.597209567846916
+participant sports,118356.0,other,0.0006857320326472087,11.68146075979211
+gambling,149641.0,other,0.0008669913405096569,11.916001053783084
+all other recreation and entertainment,98423.0,other,0.0005702440421206886,11.497039955740005
+gasoline,358359.0,other,0.0020762635226555565,12.789293346711515
+wholesale trade and transportation margins on gasoline,117005.0,other_transport,0.0006779045969776492,11.669980494516295
+retail trade margins on gasoline,109516.0,other,0.0006345147629811054,11.603835067330033
+nondurable pce commodities other than gasoline,2865311.0,other,0.016601064045729884,14.868187802725306
+wholesale trade and transportation margins on nondurable pce commodities other than gasoline,931316.0,other_transport,0.005395866823117271,13.74435499239662
+retail trade margins on nondurable pce commodities other than gasoline,1354192.0,other,0.007845929507203597,14.118716262916793
+"all other commodities, except all other trade and transportation margins",36120659.0,other_transport,0.2092761914615794,17.402375558771368
+all other wholesale trade and transportation margins,2184636.0,other_transport,0.012657363250483857,14.596960239987146
+all other retail trade margins,1169447.0,other,0.00677555230307868,13.972042400571926
+travel by u.s. residents abroad,0.0,other,0.0,0.0
+industry output,48386809.0,other,0.2803439190990085,17.6947378138852
+intermediate inputs,20666102.0,other,0.11973544333497706,16.84400537977576
+value added,27720706.0,other,0.16060846997022266,17.137690237011235
+compensation of employees,14209568.0,other,0.08232751992022991,16.469426168860306
+"taxes on production and imports, less subsidies",1790300.0,other,0.010372655869143075,14.397894320104811
+gross operating surplus,11720838.0,other,0.06790829418084968,16.276878926581627
