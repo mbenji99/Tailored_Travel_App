@@ -23,4 +23,12 @@ dist-ssr
 *.sln
 *.sw?
 
- 
+ # ignore virtual env
+/venv/
+*.pyc
+# Python artifacts
+__pycache__/
+*.py[cod]
+# Jupyter checkpoints, logs, temp files
+.ipynb_checkpoints/
+*.log
