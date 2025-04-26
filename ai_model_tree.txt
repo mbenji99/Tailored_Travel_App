@@ -1,0 +1,45 @@
+C:\USERS\SUZETTE BENJAMIN\DOCUMENTS\GROUP PROJECT\TAILORED TRAVEL APP\PROJECT\AI_MODEL
+³   requirements.txt
+³   run.py
+³   
+ÃÄÄÄdata
+³       Engineered_ExpediaDataset.csv
+³       Engineered_Hotels.csv
+³       Engineered_TourSat2023.csv
+³       Engineered_Travel.csv
+³       Engineered_TravelerTripDataset.csv
+³       Filled_Merged_Travel_Dataset.csv
+³       filler.py
+³       Hotels.csv
+³       Merged_Travel_Dataset.csv
+³       merge_datasets.py
+³       Scaled_Merged_Travel_Dataset.csv
+³       Standardized_ExpediaDataset.csv
+³       Standardized_Hotels.csv
+³       Standardized_TourSat2023.csv
+³       Standardized_Travel.csv
+³       Standardized_TravelerTripDataset.csv
+³       standardize_dataset.py
+³       TourSat2023.xlsx
+³       Travel details dataset.csv
+³       travel.csv
+³       
+ÃÄÄÄsrc
+³   ³   clustering.py
+³   ³   collaborative_filtering.py
+³   ³   content_based_filtering.py
+³   ³   data_config.py
+³   ³   data_loader.py
+³   ³   hybrid_train_model.py
+³   ³   tfx_pipeline.py
+³   ³   trainer_module.py
+³   ³   train_model.py
+³   ³   __init__.py
+³   ³   
+³   ÀÄÄÄ__pycache__
+³           collaborative_filtering.cpython-313.pyc
+³           data_config.cpython-313.pyc
+³           data_loader.cpython-310.pyc
+³           data_loader.cpython-313.pyc
+³           __init__.cpython-310.pyc
+³           

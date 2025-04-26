@@ -1,6 +1,13 @@
+import os
+
+
+HERE = os.path.dirname(__file__)
+DATA_DIR = os.path.normpath(os.path.join(HERE, "..", "data"))
+
 DATA_PATHS = {
-    "trips": "data/Travel details dataset.csv",
-    "tourism_stats": "data/TourSat2023.xlsx",
-    "travel_activity": "data/travel.csv",
-    "hotels": "data/hotel.csv"
+    "traveler_trips": os.path.join(DATA_DIR, "Standardized_TravelerTripDataset.csv"),
+    "expedia":        os.path.join(DATA_DIR, "Standardized_ExpediaDataset.csv"),
+    "hotels":         os.path.join(DATA_DIR, "Standardized_Hotels.csv"),
+    "toursat":        os.path.join(DATA_DIR, "Standardized_TourSat2023.csv"),
+    "travel":         os.path.join(DATA_DIR, "Standardized_Travel.csv"),
 }

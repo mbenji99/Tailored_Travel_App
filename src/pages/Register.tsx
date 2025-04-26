@@ -1,17 +1,17 @@
+// src/pages/Register.tsx
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuthStore } from '../store/authStore';
 import { UserPlus } from 'lucide-react';
-
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+import { register as apiRegister } from '../api';  // ← import helper
 
 export default function Register() {
-  const [email, setEmail] = useState('');
+  const [email, setEmail]     = useState('');
   const [password, setPassword] = useState('');
-  const [error, setError] = useState('');
+  const [error, setError]     = useState('');
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
-  const setUser = useAuthStore((state) => state.setUser);
+  const setUser  = useAuthStore((state) => state.setUser);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -19,19 +19,15 @@ export default function Register() {
     setLoading(true);
 
     try {
-      const response = await fetch(`${API_URL}/register`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password }),
-        credentials: 'include',
-      });
+      // call our centralized API helper
+      const res  = await apiRegister({ email, password });
+      const data = await res.json();
 
-      const data = await response.json();
-
-      if (!response.ok) {
+      if (!res.ok) {
         throw new Error(data.message || 'Registration failed');
       }
 
+      // set user in store & go to dashboard
       setUser(data.user);
       navigate('/dashboard');
     } catch (err: any) {
