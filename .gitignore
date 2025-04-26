@@ -23,9 +23,4 @@ dist-ssr
 *.sln
 *.sw?
 
- # Python virtual environment
-venv/
-
-# Byte‐compiled / cache
-__pycache__/
-*.py[cod]
+ 

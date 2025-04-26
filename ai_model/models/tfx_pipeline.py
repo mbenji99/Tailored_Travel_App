@@ -2,7 +2,7 @@
 from tfx.components import CsvExampleGen, Trainer, Pusher, Transform
 from tfx.orchestration.experimental.interactive.interactive_context import InteractiveContext
 from tfx.proto import trainer_pb2, pusher_pb2
-from data_config import DATA_PATHS
+from ai_model.configs.data_config import DATA_PATHS
 
 def run_pipeline():
     context = InteractiveContext()
