@@ -1,5 +1,3 @@
-timestamp,model_file,train_size,test_size,mse,mae
-2025-04-22T17:34:05.604445,C:\Users\Suzette Benjamin\Documents\Group Project\Tailored Travel App\project\ai_model\outputs\models\hybrid_travel_recommender_model.keras,79664,19917,0.001205586944706738,0.001106254756450653
-2025-04-24T20:57:05.565541,C:\Users\Suzette Benjamin\Documents\Group Project\Tailored Travel App\project\ai_model\outputs\models\hybrid_travel_recommender_model.keras,79664,19917,0.0012054332764819264,0.0010964650427922606
-2025-04-25T10:59:18.995994,C:\Users\Suzette Benjamin\Documents\Group Project\Tailored Travel App\project\ai_model\outputs\models\hybrid_travel_recommender_model.keras,79664,19917,0.00120876997243613,0.0024283104576170444
-2025-04-25T11:59:02.275046,C:\Users\Suzette Benjamin\Documents\Group Project\Tailored Travel App\project\ai_model\outputs\models\hybrid_travel_recommender_model.keras,79664,19917,0.0012053915997967124,0.0017804894596338272
+version https://git-lfs.github.com/spec/v1
+oid sha256:3c5989e36a18de99f43d10420dec8e5de963ee4f41484e8aed11aa276c6bc1bb
+size 943
