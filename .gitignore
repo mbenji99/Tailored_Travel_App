@@ -36,3 +36,4 @@ __pycache__/
 # Data artifacts
 ai_model/data/*.csv
 ai_model/data/*.h5
+venv/
